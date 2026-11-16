@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
+<rect width="1200" height="250" rx="18" fill="#101f32"/>
+<path d="M1040 0V68H1150V170H1200M990 250V209H1080V124H1200" fill="none" stroke="#254664" stroke-width="2"/>
+<circle cx="1040" cy="68" r="5" fill="#44d7b6"/>
+<text x="44" y="43" font-family="Arial,Helvetica,sans-serif" fill="#44d7b6" font-size="14" letter-spacing="2">HYUNWOOK LEE / KOREA UNIVERSITY / INDIVIDUAL VLSI PROJECT</text>
+<text x="42" y="103" font-family="Arial,Helvetica,sans-serif" fill="#f3f7fc" font-size="43" font-weight="700">64 x 64 Matrix Multiplier</text>
+<text x="44" y="144" font-family="Arial,Helvetica,sans-serif" fill="#becbda" font-size="20">Four parallel MAC lanes / Memory addressing / Control sequencing</text>
+<rect x="44" y="179" width="1000" height="40" rx="7" fill="#20374f"/>
+<text x="60" y="205" font-family="Arial,Helvetica,sans-serif" fill="#e7f2fc" font-size="17">Course report: 6.3 ns constraint met | Controller with FF boundaries</text>
+</svg>

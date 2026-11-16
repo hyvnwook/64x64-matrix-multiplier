@@ -1,0 +1,16 @@
+build/
+work/
+__pycache__/
+*.pyc
+*.wlf
+*.vcd
+*.vvp
+*.log
+transcript
+modelsim.ini
+*.bak
+.DS_Store
+Thumbs.db
+vec_*.txt
+image_in_*.txt
+DCT_image_*.txt

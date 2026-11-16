@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="Arial,Helvetica,sans-serif">
+<rect width="1200" height="340" rx="14" fill="#f4f7fb"/>
+<text x="32" y="44" font-size="23" font-weight="700" fill="#132b42">Matrix multiplication / four parallel output columns</text>
+<g fill="#fff" stroke="#bacbdc">
+<rect x="32" y="82" width="210" height="80" rx="10"/>
+<rect x="32" y="194" width="210" height="80" rx="10"/>
+<rect x="354" y="130" width="224" height="100" rx="10"/>
+<rect x="650" y="130" width="224" height="100" rx="10"/>
+<rect x="946" y="130" width="222" height="100" rx="10"/>
+</g>
+<g fill="#193c56" font-size="20" font-weight="700" text-anchor="middle">
+<text text-anchor="middle" x="137" y="114">A memory</text><text text-anchor="middle" x="137" y="226">B memory</text>
+<text text-anchor="middle" x="466" y="168">4 MAC lanes</text><text text-anchor="middle" x="762" y="168">Write controller</text><text text-anchor="middle" x="1057" y="168">C memory</text>
+</g>
+<g fill="#50677c" font-size="16" text-anchor="middle">
+<text text-anchor="middle" x="137" y="141">1 x 8-bit / read</text><text text-anchor="middle" x="137" y="253">4 x 8-bit / read</text>
+<text text-anchor="middle" x="466" y="199">22-bit accumulators</text><text text-anchor="middle" x="762" y="199">sequential C writes</text><text text-anchor="middle" x="1057" y="199">22-bit results</text>
+</g>
+<g stroke="#239c8b" stroke-width="2" fill="none">
+<path d="M242 122H294V156H348l-6 -5m6 5l-6 5"/>
+<path d="M242 234H294V204H348l-6 -5m6 5l-6 5"/>
+<path d="M578 180H644l-6 -5m6 5l-6 5"/>
+<path d="M874 180H940l-6 -5m6 5l-6 5"/>
+</g>
+<text x="32" y="314" fill="#50677c" font-size="16">A is broadcast to every MAC lane; each lane receives a different B element.</text>
+</svg>
